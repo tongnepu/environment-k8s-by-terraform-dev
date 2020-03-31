@@ -1,0 +1,27 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  annotations:
+    jenkins.io/last-build-number-for-master: "1"
+  creationTimestamp: null
+  labels:
+    jenkins.io/chart-release: jenkins-x
+    jenkins.io/gitSync: "false"
+    jenkins.io/namespace: jx
+    jenkins.io/version: "1"
+    owner: inigudangsampah
+    provider: github
+    repository: environment-k8s-by-terraform-dev
+  name: inigudangsampah-environment-k8s-by-terraform-dev
+spec:
+  description: Imported application for inigudangsampah/environment-k8s-by-terraform-dev
+  httpCloneURL: https://github.com/inigudangsampah/environment-k8s-by-terraform-dev.git
+  org: inigudangsampah
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: environment-k8s-by-terraform-dev
+  scheduler:
+    kind: Scheduler
+    name: env-scheduler
+  url: https://github.com/inigudangsampah/environment-k8s-by-terraform-dev.git

@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: inigudangsampah
+  repo: environment-k8s-by-terraform-dev
+  url: https://github.com/inigudangsampah/environment-k8s-by-terraform-dev.git
+  version: ""
+  versionURL: ""
