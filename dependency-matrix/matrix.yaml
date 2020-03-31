@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: inigudangsampah
-  repo: environment-k8s-by-terraform-production
-  url: https://github.com/inigudangsampah/environment-k8s-by-terraform-production.git
+  repo: environment-k8s-by-terraform-staging
+  url: https://github.com/inigudangsampah/environment-k8s-by-terraform-staging.git
   version: ""
   versionURL: ""
