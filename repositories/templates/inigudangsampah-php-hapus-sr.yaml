@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: inigudangsampah
+    provider: github
+    repository: php-hapus
+  name: inigudangsampah-php-hapus
+spec:
+  description: Imported application for inigudangsampah/php-hapus
+  httpCloneURL: https://github.com/inigudangsampah/php-hapus.git
+  org: inigudangsampah
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: php-hapus
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/inigudangsampah/php-hapus.git
