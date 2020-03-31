@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:k8s-by-terraform/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: inigudangsampah@gmail.com
+  token: vault:k8s-by-terraform/pipelineUser:token
+  username: tongnepu
+prow:
+  hmacToken: vault:k8s-by-terraform/prow:hmacToken
